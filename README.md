@@ -62,35 +62,6 @@ https\://www\.kaggle.com/datasets/awsaf49/math-qsa-dataset
 - 평가 지표: **정확도 (Accuracy)** 또는 **F1-score**
 - 학습 및 평가 결과는 Wandb를 통해 시각화합니다.
 
----
-
-## 📌 사용 방법
-
-1. 리포지토리 클론하기:
-
-```bash
-$ git clone https://github.com/your-repo/math-ai-model.git
-```
-
-2. 필요한 라이브러리 설치:
-
-```bash
-$ pip install -r requirements.txt
-```
-
-3. 모델 학습:
-
-```bash
-$ python train.py
-```
-
-4. 예측 수행 및 결과 저장:
-
-```bash
-$ python predict.py
-```
-
----
 
 ## 🚀 향후 개선 사항
 
@@ -98,16 +69,5 @@ $ python predict.py
 - **데이터 증강:** 데이터셋의 크기를 늘려 모델의 일반화 능력 향상.
 - **다양한 모델 비교:** 다른 Transformer 모델과의 성능 비교 실험.
 
----
 
-## 📜 라이선스
-
-이 프로젝트는 MIT 라이선스에 따라 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 확인하세요.
-
----
-
-## 🙏 감사의 말
-
-- 이 프로젝트는 Kaggle의 Math QSA Dataset을 활용하여 개발되었습니다.
-- 모델 학습을 위해 `transformers`, `PEFT`, `Wandb` 등의 라이브러리를 사용하였습니다.
 
