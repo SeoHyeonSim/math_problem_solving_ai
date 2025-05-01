@@ -24,16 +24,15 @@
 
 https\://www\.kaggle.com/datasets/awsaf49/math-qsa-dataset
 
-     
-     problem                   수학 문제
-     
-     level                     문제 난이도
-     
-     type                      문제 유형
+**데이터 구성:**
 
-     solution                  문제의 풀이
-
-     answer                    문제의 정답
+     problem: LaTeX 형식으로 구성된 수학 문제
+     
+     solution: 문제에 대한 자세한 풀이 설명
+     
+     answer: 문제의 최종 정답
+     
+     level, type: 난이도와 문제 유형 분류
 
 ---
 
